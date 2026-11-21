@@ -69,6 +69,7 @@
     ".scratch",
     ".agents",
     ".slim",
-    "packages/browser-pool"
+    "packages/browser-pool",
+    "contrib/agency"
   ]
 }

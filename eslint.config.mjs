@@ -237,6 +237,8 @@ const eslintConfig = [
       // .agents/ — skill definitions + their helper scripts (gitignored; the
       // canonical copy lives here and is symlinked into .claude/).
       ".agents/**",
+      // contrib/agency/ — standalone Foda Agency site (own package.json + eslint config)
+      "contrib/agency/**",
       // .source/ — fumadocs codegen output (@ts-nocheck + bundler-only import
       // query params like `?collection=docs`, which are not valid TS on their own).
       ".source/**",
